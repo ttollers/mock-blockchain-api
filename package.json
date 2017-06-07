@@ -1,0 +1,23 @@
+{
+  "name": "tallysticks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test --recursive",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Tom Tollinton",
+  "license": "ISC",
+  "dependencies": {
+    "highland": "^2.10.5",
+    "ramda": "^0.23.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
